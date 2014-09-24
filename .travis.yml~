@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.1.2
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: VRMqtnNSSzmPWkHQFXGCHVGLgOyDG94X2U5K7npUY4XNDChiekJ2ND6Orh032YAXE4c9GrcT5E+e5dv57QBQWJS1z0J/G7VBTL6HTMdCZD6UqIbGgzOovf2I2wcyuQoRfQi95Jjs1ObnV/A4bccdRWU/2phMcyqxF9hFmWgJcBo=
+  app: rails_enpit
+  on:
+    repo: ysoeno/rails_enpit
